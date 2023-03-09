@@ -1,156 +1,93 @@
-basic.forever(function () {
-    if (Math.randomBoolean()) {
-        basic.showIcon(IconNames.Diamond)
-        basic.showIcon(IconNames.Pitchfork)
-        basic.showIcon(IconNames.Square)
-        basic.showString("NIVEL 1")
-        basic.showString("NIVEL 2")
-        basic.showString("NIVEL 3")
-        basic.showString("NIVEL 4")
-        basic.showString("NIVEL 5")
-        basic.showString("NIVEL 6")
-        basic.showString("NIVEL 7")
-        basic.showString("NIVEL 8")
-        basic.showString("NIVEL 9")
-        basic.showString("NIVEL 10")
-        basic.showString("NIVEL 11")
-        basic.showString("NIVEL 12")
-        basic.showString("NIVEL 13")
-        basic.showString("NIVEL 14")
-        basic.showString("NIVEL 15")
-        basic.showString("NIVEL 16")
-        basic.showString("NIVEL 17")
-        basic.showString("NIVEL 18")
-        basic.showString("NIVEL 19")
-        basic.showString("NIVEL 20")
-        basic.showString("NIVEL 21")
-        basic.showString("NIVEL 22")
-        basic.showString("NIVEL 23")
-        basic.showString("NIVEL 24")
-        basic.showString("NIVEL 25")
-        basic.showString("NIVEL 26")
-        basic.showString("NIVEL 27")
-        basic.showString("NIVEL 28")
-        basic.showString("NIVEL 29")
-        basic.showString("NIVEL 30")
-        basic.showString("NIVEL 31")
-        basic.showString("NIVEL 32")
-        basic.showString("NIVEL 33")
-        basic.showString("NIVEL 34")
-        basic.showString("NIVEL 35")
-        basic.showString("NIVEL 36")
-        basic.showString("NIVEL 37")
-        basic.showString("NIVEL 38")
-        basic.showString("NIVEL 39")
-        basic.showString("NIVEL 40")
-        basic.showString("NIVEL 41")
-        basic.showString("NIVEL 42")
-        basic.showString("NIVEL 43")
-        basic.showString("NIVEL 44")
-        basic.showString("NIVEL 45")
-        basic.showString("NIVEL 46")
-        basic.showString("NIVEL 47")
-        basic.showString("NIVEL 48")
-        basic.showString("NIVEL 49")
-        basic.showString("NIVEL 50")
-        basic.showString("NIVEL 51")
-        basic.showString("NIVEL 52")
-        basic.showString("NIVEL 53")
-        basic.showString("NIVEL 54")
-        basic.showString("NIVEL 55")
-        basic.showString("NIVEL 56")
-        basic.showString("NIVEL 57")
-        basic.showString("NIVEL 58")
-        basic.showString("NIVEL 59")
-        basic.showString("NIVEL 60")
-        basic.showString("NIVEL 61")
-        basic.showString("NIVEL 62")
-        basic.showString("NIVEL 63")
-        basic.showString("NIVEL 64")
-        basic.showString("NIVEL 65")
-        basic.showString("NIVEL 66")
-        basic.showString("NIVEL 67")
-        basic.showString("NIVEL 68")
-        basic.showString("NIVEL 69")
-        basic.showString("NIVEL 70")
-        basic.showString("NIVEL 71")
-        basic.showString("NIVEL 72")
-        basic.showString("NIVEL 73")
-        basic.showString("NIVEL 74")
-        basic.showString("NIVEL 75")
-        basic.showString("NIVEL 76")
-        basic.showString("NIVEL 77")
-        basic.showString("NIVEL 78")
-        basic.showString("NIVEL 79")
-        basic.showString("NIVEL 80")
-        basic.showString("NIVEL 81")
-        basic.showString("NIVEL 82")
-        basic.showString("NIVEL 83")
-        basic.showString("NIVEL 84")
-        basic.showString("NIVEL 85")
-        basic.showString("NIVEL 86")
-        basic.showString("NIVEL 87")
-        basic.showString("NIVEL 88")
-        basic.showString("NIVEL 89")
-        basic.showString("NIVEL 90")
-        basic.showString("NIVEL 91")
-        basic.showString("NIVEL 92")
-        basic.showString("NIVEL 93")
-        basic.showString("NIVEL 94")
-        basic.showString("NIVEL 95")
-        basic.showString("NIVEL 96")
-        basic.showString("NIVEL 97")
-        basic.showString("NIVEL 98")
-        basic.showString("NIVEL 99")
-        basic.showString("NIVEL 100")
-        basic.showString("NIVEL 101")
-        basic.showString("NIVEL 102")
-        basic.showString("NIVEL 103")
-        basic.showString("NIVEL 104")
-        basic.showString("NIVEL 105")
-        basic.showString("NIVEL 106")
-        basic.showString("NIVEL 107")
-        basic.showString("NIVEL 108")
-        basic.showString("NIVEL 109")
-        basic.showString("NIVEL 110")
-        basic.showString("NIVEL 111")
-        basic.showString("NIVEL 112")
-        basic.showString("NIVEL 113")
-        basic.showString("NIVEL 114")
-        basic.showString("NIVEL 115")
-        basic.showString("NIVEL 116")
-        basic.showString("NIVEL 117")
-        basic.showString("NIVEL 118")
-        basic.showString("NIVEL 119")
-        basic.showString("NIVEL 120")
-        basic.showString("NIVEL 121")
-        basic.showString("NIVEL 122")
-        basic.showString("NIVEL 123")
-        basic.showString("NIVEL 124")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-        basic.showString("NIVEL 125")
-    }
+let número_aleatorio: number = []
+let nivel: number = []
+let jugadas_microbit: number[] = []
+let números_jugadas_hechas: number = []
+let índice: number = []
+let jugadas_usuario: number[] = []
+function llamada_crear_secuencia () {
+	
+}
+input.onPinPressed(TouchPin.P0, function () {
+    llamada_evaluar_jugada_de_usario(0)
 })
+function crear_frecuencia () {
+    número_aleatorio = randint(0, 2)
+    nivel = nivel + 2
+    basic.showString("N")
+    basic.showNumber(nivel)
+    jugadas_microbit.push(número_aleatorio)
+    for (let value of jugadas_microbit) {
+        if (value == 0) {
+            basic.clearScreen()
+            basic.pause(200)
+            basic.showIcon(IconNames.Giraffe)
+            basic.pause(200)
+            basic.clearScreen()
+        }
+        if (value == 0) {
+            basic.clearScreen()
+            basic.pause(200)
+            basic.showIcon(IconNames.Giraffe)
+            basic.pause(200)
+            basic.clearScreen()
+        }
+        if (value == 1) {
+            basic.clearScreen()
+            basic.pause(200)
+            basic.showIcon(IconNames.Ghost)
+            basic.pause(200)
+            basic.clearScreen()
+        }
+        if (value == 2) {
+            basic.clearScreen()
+            basic.pause(200)
+            basic.showIcon(IconNames.House)
+            basic.pause(200)
+            basic.clearScreen()
+        }
+    }
+    números_jugadas_hechas = 0
+    índice = 0
+    jugadas_usuario = []
+}
+function llamada_reiniciar_juego () {
+    índice = 0
+    nivel = 0
+    números_jugadas_hechas = 0
+    jugadas_microbit = []
+    jugadas_usuario = []
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.SmallSquare)
+    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.SmallSquare)
+}
+input.onButtonPressed(Button.A, function () {
+    llamada_reiniciar_juego()
+})
+input.onPinPressed(TouchPin.P2, function () {
+    llamada_evaluar_jugada_de_usario(2)
+})
+function llamada_evaluar_jugada_de_usario (núm: number) {
+	
+}
+input.onPinPressed(TouchPin.P1, function () {
+    llamada_evaluar_jugada_de_usario(1)
+})
+function evaluar_jugada_de_usuario (núm: number) {
+    let núm: number = []
+    jugadas_usuario.push(núm)
+    if (jugadas_usuario[índice] || jugadas_microbit[índice]) {
+        basic.showIcon(IconNames.Yes)
+        basic.clearScreen()
+        números_jugadas_hechas += 1
+        índice = índice + 1
+        if (números_jugadas_hechas || nivel) {
+            llamada_crear_secuencia()
+        }
+    } else {
+        basic.showIcon(IconNames.No)
+        basic.clearScreen()
+        basic.showString("Game Over")
+        control.reset()
+    }
+}
